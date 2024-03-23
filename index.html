@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tira Shop</title>
+    <!-- flaticon -->
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header__top">
+            <div class="header__container container">
+                <div class="header__contact">
+                    <span>(+84) - 6507 - 8988</span>
+                    <span>Vietnam</span>
+                </div>
+                <p class="header__alert-news">
+                    Quality comes first, your satisfaction is our priority!
+                </p>
+
+                <a href="login-register.html" class="header__top-action">
+                    Log In / Sign Up
+                </a>
+            </div>
+        </div>
+
+        <!-- nav -->
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link">
+                            Shop
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="accounts.html" class="nav__link">
+                            My Account
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="compare.html" class="nav__link">
+                            Compare
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="login-register.html" class="nav__link">
+                            Login
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="header__search">
+                    <input type="text" placeholder="Search for items..." class="form__input">
+
+                    <button class="search__btn">
+                        <img src="assets/img/search.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="header__user-actions">
+                <a href="wishlish.html" class="header__action-btn">
+                    <img src="assets/img/icon-heart.svg" alt="" />
+
+                </a>
+
+                <a href="cart.html" class="header__action-btn">
+                    <img src="assets/img/icon-cart.svg" alt="" />
+
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main id="main">
+        <!-- home -->
+        <section class="home section--lg">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Hot promotions</span>
+                    <h1 class="home__title">Fashion Trending</h1>
+                    <span class="sub__title"> Great Collections</span>
+
+                    <p class="home__description">
+                        Save more with coupons & up to 20% off
+                    </p>
+                    <a href="shop.html" class="btn">Shop Now</a>
+                </div>
+                <img src="assets/img/home-img.png" alt="" class="home__img">
+            </div>
+
+        </section>
+
+        <!-- categories -->
+        <section class="categories container section">
+            <h3 class="section__title"><span>Popular</span> Categories</h3>
+            <div class="categories__container swiper">
+                <div class="swiper-wrapper">
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/category-1.jpg" alt="" class="category__img">
+                        <h3 class="category__title">T-Shirt</h3>
+                    </a>
+
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/category-2.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Bags</h3>
+                    </a>
+
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/category-3.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Sandal</h3>
+                    </a>
+
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/category-4.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Scarf Cap</h3>
+                    </a>
+
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/category-5.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Shoes</h3>
+                    </a>
+
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/category-6.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Pillowcase</h3>
+                    </a>
+
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/category-7.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Jumpsuit</h3>
+                    </a>
+
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/category-8.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Hats</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-button-next"><i class="fi fi-rs-angle-right"></i></div>
+                <div class="swiper-button-prev"><i class="fi fi-rs-angle-left"></i></div>
+            </div>
+        </section>
+
+        <!-- products -->
+        <section class="products section container">
+            <div class="tab_btns">
+                <span class="tab_btn active-tab" data-target="#featured">Featured</span>
+                <span class="tab_btn" data-target="#popular">Popular</span>
+                <span class="tab_btn" data-target="#new-added">New Added</span>
+            </div>
+
+            <div class="tab_items">
+                <div class="tab_item active-tab" content id="featured">
+                    <div class="products_container grid">
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-1-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-1-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-pink">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-2-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-2-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-3-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-3-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-orange">Best Sell</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-4-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-4-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-blue">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-5-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-5-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-pink">-30%</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-6-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-6-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge-pink">-22%</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-7-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-7-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-8-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-8-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab_item" content id="popular">
+                    <div class="products_container grid">
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-9-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-9-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-pink">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-2-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-2-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-10-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-10-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-orange">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-4-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-4-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-blue">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-5-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-5-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-pink">-30%</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-11-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-11-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-pink">-22%</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-7-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-7-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-8-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-8-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab_item" content id="new-added">
+                    <div class="products_container grid">
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-1-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-1-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-pink">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-12-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-12-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-3-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-3-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-orange">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$230.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-13-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-13-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-blue">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-5-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-5-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-pink">-30%</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-11-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-11-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-pink">-22%</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-7-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-7-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                                <div class="product_badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product_item">
+                            <div class="product_banner">
+                                <a href="details.html" class="product_images">
+                                    <img src="assets/img/product-8-1.jpg" alt="" class="product_img default">
+
+                                    <img src="assets/img/product-8-2.jpg" alt="" class="product_img hover">
+                                </a>
+
+                                <div class="product_actions">
+                                    <a href="#" class="action_btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action_btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="product_content">
+                                <span class="product_category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product_title">Colorful Pattern Shirts</h3>
+                                </a>
+                                <div class="product_rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product_price flex">
+                                    <span class="new_price">$238.85</span>
+                                    <span class="old_price">$245.8</span>
+                                </div>
+
+                                <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- deals -->
+        <section class="deals section">
+            <div class="deals_container container grid">
+                <div class="deals_item">
+                    <div class="deals-group">
+                        <h3 class="deals_brand">Deal of the Day</h3>
+                        <span class="deals_category">Limited quatities.</span>
+                    </div>
+
+                    <h4 class="deals_title">Summer Collection New Modern Design</h4>
+
+                    <div class="deals_price flex">
+                        <span class="new_price">$139.00</span>
+                        <span class="old_price">$160.99</span>
+                    </div>
+
+                    <div class="deals_group">
+                        <p class="deals_countdown-text">Hurry Up! Offer End In:</p>
+
+                        <div class="countdown">
+                            <div class="countdown_amount">
+                                <p class="countdown_period">02</p>
+                                <span class="unit">Days</span>
+                            </div>
+                            <div class="countdown_amount">
+                                <p class="countdown_period">22</p>
+                                <span class="unit">Hours</span>
+                            </div>
+                            <div class="countdown_amount">
+                                <p class="countdown_period">57</p>
+                                <span class="unit">Mins</span>
+                            </div>
+                            <div class="countdown_amount">
+                                <p class="countdown_period">24</p>
+                                <span class="unit">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deals_btn">
+                        <a href="details.html" class="btn btn--md">Shop Now</a>
+                    </div>
+                </div>
+
+                <div class="deals_item">
+                    <div class="deals-group">
+                        <h3 class="deals_brand">Women Clothing</h3>
+                        <span class="deals_category">Limited quatities.</span>
+                    </div>
+
+                    <h4 class="deals_title">Try something new on vacation</h4>
+
+                    <div class="deals_price flex">
+                        <span class="new_price">$139.00</span>
+                        <span class="old_price">$160.99</span>
+                    </div>
+
+                    <div class="deals_group">
+                        <p class="deals_countdown-text">Hurry Up! Offer End In:</p>
+
+                        <div class="countdown">
+                            <div class="countdown_amount">
+                                <p class="countdown_period">02</p>
+                                <span class="unit">Days</span>
+                            </div>
+                            <div class="countdown_amount">
+                                <p class="countdown_period">22</p>
+                                <span class="unit">Hours</span>
+                            </div>
+                            <div class="countdown_amount">
+                                <p class="countdown_period">57</p>
+                                <span class="unit">Mins</span>
+                            </div>
+                            <div class="countdown_amount">
+                                <p class="countdown_period">24</p>
+                                <span class="unit">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deals_btn">
+                        <a href="details.html" class="btn btn--md">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- new arrivals -->
+        <section class="new_arivals container section">
+            <h3 class="section__title"><span>New</span> Arrivals</h3>
+            <div class="new__container swiper">
+                <div class="swiper-wrapper">
+                    <div class="product_item swiper-slide">
+                        <div class="product_banner">
+                            <a href="details.html" class="product_images">
+                                <img src="assets/img/product-9-1.jpg" alt="" class="product_img default">
+
+                                <img src="assets/img/product-9-2.jpg" alt="" class="product_img hover">
+                            </a>
+
+                            <div class="product_actions">
+                                <a href="#" class="action_btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+
+                            <div class="product_badge light-pink">Hot</div>
+                        </div>
+
+                        <div class="product_content">
+                            <span class="product_category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product_title">Colorful Pattern Shirts</h3>
+                            </a>
+                            <div class="product_rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product_price flex">
+                                <span class="new_price">$238.85</span>
+                                <span class="old_price">$245.8</span>
+                            </div>
+
+                            <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product_item  swiper-slide">
+                        <div class="product_banner">
+                            <a href="details.html" class="product_images">
+                                <img src="assets/img/product-2-1.jpg" alt="" class="product_img default">
+
+                                <img src="assets/img/product-2-2.jpg" alt="" class="product_img hover">
+                            </a>
+
+                            <div class="product_actions">
+                                <a href="#" class="action_btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+
+                            <div class="product_badge light-green">Hot</div>
+                        </div>
+
+                        <div class="product_content">
+                            <span class="product_category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product_title">Colorful Pattern Shirts</h3>
+                            </a>
+                            <div class="product_rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product_price flex">
+                                <span class="new_price">$238.85</span>
+                                <span class="old_price">$245.8</span>
+                            </div>
+
+                            <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product_item  swiper-slide">
+                        <div class="product_banner">
+                            <a href="details.html" class="product_images">
+                                <img src="assets/img/product-10-1.jpg" alt="" class="product_img default">
+
+                                <img src="assets/img/product-10-2.jpg" alt="" class="product_img hover">
+                            </a>
+
+                            <div class="product_actions">
+                                <a href="#" class="action_btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+
+                            <div class="product_badge light-orange">Hot</div>
+                        </div>
+
+                        <div class="product_content">
+                            <span class="product_category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product_title">Colorful Pattern Shirts</h3>
+                            </a>
+                            <div class="product_rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product_price flex">
+                                <span class="new_price">$238.85</span>
+                                <span class="old_price">$245.8</span>
+                            </div>
+
+                            <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product_item  swiper-slide">
+                        <div class="product_banner">
+                            <a href="details.html" class="product_images">
+                                <img src="assets/img/product-4-1.jpg" alt="" class="product_img default">
+
+                                <img src="assets/img/product-4-2.jpg" alt="" class="product_img hover">
+                            </a>
+
+                            <div class="product_actions">
+                                <a href="#" class="action_btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+
+                            <div class="product_badge light-blue">Hot</div>
+                        </div>
+
+                        <div class="product_content">
+                            <span class="product_category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product_title">Colorful Pattern Shirts</h3>
+                            </a>
+                            <div class="product_rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product_price flex">
+                                <span class="new_price">$238.85</span>
+                                <span class="old_price">$245.8</span>
+                            </div>
+
+                            <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product_item  swiper-slide">
+                        <div class="product_banner">
+                            <a href="details.html" class="product_images">
+                                <img src="assets/img/product-5-1.jpg" alt="" class="product_img default">
+
+                                <img src="assets/img/product-5-2.jpg" alt="" class="product_img hover">
+                            </a>
+
+                            <div class="product_actions">
+                                <a href="#" class="action_btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+
+                            <div class="product_badge light-pink">-30%</div>
+                        </div>
+
+                        <div class="product_content">
+                            <span class="product_category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product_title">Colorful Pattern Shirts</h3>
+                            </a>
+                            <div class="product_rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product_price flex">
+                                <span class="new_price">$238.85</span>
+                                <span class="old_price">$245.8</span>
+                            </div>
+
+                            <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product_item  swiper-slide">
+                        <div class="product_banner">
+                            <a href="details.html" class="product_images">
+                                <img src="assets/img/product-11-1.jpg" alt="" class="product_img default">
+
+                                <img src="assets/img/product-11-2.jpg" alt="" class="product_img hover">
+                            </a>
+
+                            <div class="product_actions">
+                                <a href="#" class="action_btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+
+                            <div class="product_badge light-pink">-22%</div>
+                        </div>
+
+                        <div class="product_content">
+                            <span class="product_category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product_title">Colorful Pattern Shirts</h3>
+                            </a>
+                            <div class="product_rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product_price flex">
+                                <span class="new_price">$238.85</span>
+                                <span class="old_price">$245.8</span>
+                            </div>
+
+                            <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product_item  swiper-slide">
+                        <div class="product_banner">
+                            <a href="details.html" class="product_images">
+                                <img src="assets/img/product-7-1.jpg" alt="" class="product_img default">
+
+                                <img src="assets/img/product-7-2.jpg" alt="" class="product_img hover">
+                            </a>
+
+                            <div class="product_actions">
+                                <a href="#" class="action_btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+
+                            <div class="product_badge light-green">Hot</div>
+                        </div>
+
+                        <div class="product_content">
+                            <span class="product_category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product_title">Colorful Pattern Shirts</h3>
+                            </a>
+                            <div class="product_rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product_price flex">
+                                <span class="new_price">$238.85</span>
+                                <span class="old_price">$245.8</span>
+                            </div>
+
+                            <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product_item  swiper-slide">
+                        <div class="product_banner">
+                            <a href="details.html" class="product_images">
+                                <img src="assets/img/product-8-1.jpg" alt="" class="product_img default">
+
+                                <img src="assets/img/product-8-2.jpg" alt="" class="product_img hover">
+                            </a>
+
+                            <div class="product_actions">
+                                <a href="#" class="action_btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Add To Wishlist">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+
+                                <a href="#" class="action_btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="product_content">
+                            <span class="product_category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product_title">Colorful Pattern Shirts</h3>
+                            </a>
+                            <div class="product_rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product_price flex">
+                                <span class="new_price">$238.85</span>
+                                <span class="old_price">$245.8</span>
+                            </div>
+
+                            <a href="#" class="action_btn cart_btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"><i class="fi fi-rs-angle-right"></i></div>
+                <div class="swiper-button-prev"><i class="fi fi-rs-angle-left"></i></div>
+            </div>
+        </section>
+
+        <!-- show case -->
+        <section class="showcase section">
+            <div class="showcase_container container grid">
+                <div class="showcase_wrapper">
+                    <h3 class="section_title">Hot Releases</h3>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-1.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Floral Print Casual Cotton Dress</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-2.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Ruffled Solid Long Sleeve Blouse</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-3.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Multi-color Print V-neck T-Shirt</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showcase_wrapper">
+                    <h3 class="section_title">Deals & Outlet</h3>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-4.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Fish Print Patched T-shirt</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-5.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Vintage Floral Print Dress</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-6.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Multi-color Stripe Circle T-shirt</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showcase_wrapper">
+                    <h3 class="section_title">Top Selling</h3>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-7.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Geometric Printed Long Sleeve</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-8.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Print Ptchwork Maxi Dress</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-9.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Daisy Floral Print Straps Jumpsuit</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showcase_wrapper">
+                    <h3 class="section_title">Trendy</h3>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-1.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Fish Print Patched T-shirt</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-2.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Vintage Floral Print Dress</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="showcase_item">
+                        <a href="details.html" class="showcase_img-box">
+                            <img src="assets/img/showcase-img-3.jpg" alt="" class="showcase_img" />
+                        </a>
+
+                        <div class="showcase_content">
+                            <a href="details.html">
+                                <h4 class="showcase_title">Multi-color Stripe Circle T-shirt</h4>
+                            </a>
+
+                            <div class="showcase_price flex">
+                                <span class="new_peice">$238.85</span>
+                                <span class="old_peice">$245.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- news letter -->
+        <section class="newsletter"></section>
+    </main>
+
+    <!--FOOOTER -->
+    <footer class="new__arivals"></footer>
+
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!-- main js -->
+    <script src="assets/js/main.js"> </script>
+</body>
+
+</html>
