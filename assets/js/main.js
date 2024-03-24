@@ -69,16 +69,23 @@ breakpoints: {
 });
 
 /*=============== PRODUCTS TABS ===============*/
+//lấy tất cả phần tử có thuộc tính được query
 const tabs = document.querySelectorAll('[data-target]'),
   tabContents = document.querySelectorAll('[content]');
-  
+
+  //duyệt qua mỗi tab và thêm một event listener
 tabs.forEach((tab) => {
+
+  //Mỗi khi một tab được click, một hàm callback được gọi.
   tab.addEventListener('click', () => {
     const target = document.querySelector(tab.dataset.target);
     tabContents.forEach((tabContent) => {
+
+      //Duyệt qua tất cả các tab content và loại bỏ lớp 'active-tab' khỏi chúng.
       tabContent.classList.remove('active-tab');
     });
 
+    //Thêm lớp 'active-tab' vào tab content mà tab được click chỉ đến.
     target.classList.add('active-tab');
 
     tabs.forEach((tab) => {
