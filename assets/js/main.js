@@ -11,17 +11,22 @@
 /*=============== SWIPER CATEGORIES ===============*/
 
 //navigation
+//thể hiện một đối tượng của biến Swiper
+//chỉ định phần tử mà Swiper sẽ được áp dụng
 var swiperCategories = new Swiper(".categories__container", {
     spaceBetween: 24,
+    //lặp lại vô hạn lần
     loop: true,
     navigation: {
+      //điều hướng cho Swiper
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
 
-  //responsive breakpoint
+  //thiết lập số lượng slide
   breakpoints: {
     640: {
+      //Số lượng slide hiển thị trên mỗi lần cuộn.
       slidesPerView: 2,
       spaceBetween: 20,
     },
